@@ -1,0 +1,66 @@
+# Laravel
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/storage/logs/*
+.env
+.env.backup
+.env.*.php
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# Laravel-specific files
+.phpunit.result.cache
+.Homestead
+.app-etc.php
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+storage/logs/*.log
+storage/logs/laravel.log
+
+# Database
+database/database.sqlite
+database/database.sqlite-*
+
+# Cache
+bootstrap/cache/*
+!bootstrap/cache/.gitkeep
+
+# Config cache
+config/*.php
+!config/app.php
+!config/database.php
+!config/logging.php
+!config/services.php
+!config/sanctum.php
+
+# Vendor
+/vendor/
+
+# Expo (for future mobile app)
+/expo-shared/
+.expo/
+
+# Test files
+test_api.php
+*.log

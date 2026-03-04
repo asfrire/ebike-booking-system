@@ -1,5 +1,6 @@
-# Laravel
+# Laravel Backend
 /node_modules
+/vendor/
 /public/hot
 /public/storage
 /storage/*.key
@@ -54,12 +55,23 @@ config/*.php
 !config/services.php
 !config/sanctum.php
 
-# Vendor
-/vendor/
-
-# Expo (for future mobile app)
-/expo-shared/
-.expo/
+# React Native Mobile App
+ebike-mobile/node_modules/
+ebike-mobile/.expo/
+ebike-mobile/dist/
+ebike-mobile/web-build/
+ebike-mobile/.expo-shared/
+ebike-mobile/package-lock.json
+ebike-mobile/yarn.lock
+ebike-mobile/npm-debug.log*
+ebike-mobile/yarn-debug.log*
+ebike-mobile/yarn-error.log*
+ebike-mobile/*.log
+ebike-mobile/logs/
+ebike-mobile/.DS_Store
+ebike-mobile/Thumbs.db
+ebike-mobile/*.tmp
+ebike-mobile/*.temp
 
 # Test files
 test_api.php
